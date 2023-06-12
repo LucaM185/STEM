@@ -42,7 +42,7 @@ void loop() {
   }
   int joystickXValue = analogRead(joystickXPin);
   int joystickYValue = analogRead(joystickYPin);
-  for (int i = 0; i < 2; i++) { // Do not change from multiples of 4, it may not be as fast, add last step memory
+  for (int i = 0; i < 2; i++) {  
     if (number1 <= 4 and pos1 < topXThresh and joystickXValue < 900 or joystickXValue < 100){
       setMotor1Step(int(pos1));
       if(joystickXValue < 100){

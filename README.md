@@ -3,7 +3,7 @@
 By far my hardest engineering project, requiring two devices to communicate at high speed, with error rejection, controlling with accuracy stepper motors and dealing with bad tolerances on plastic parts 
 
 Look at the demo here: https://youtube.com/shorts/tS_cE6SSZQE
-https://youtu.be/4P9ADShRU1Y
+
 The general layout is the following: 
 1) A webcam on top that records the black plane 
 2) A python function that identifies the brightest pixel, anchors to the ball with sub pixel precision and calculates the trajectory

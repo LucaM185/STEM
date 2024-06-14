@@ -1,6 +1,6 @@
 # STEM
 
-By far my hardest engineering project, requiring two devices to communicate at high speed, with error rejection, controlling with accuracy stepper motors and dealing with bad tolerances on plastic parts 
+By far my hardest engineering project at the time (17yo), requiring two devices to communicate at high speed and a PID for controlling with accuracy stepper motors and dealing with bad tolerances on plastic parts 
 
 Look at the demo here: https://youtube.com/shorts/tS_cE6SSZQE
 

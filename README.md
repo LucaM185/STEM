@@ -6,7 +6,7 @@ Look at the demo here: https://youtube.com/shorts/tS_cE6SSZQE
 
 The general layout is the following: 
 1) A webcam on top that records the black plane 
-2) A python function that identifies the brightest pixel, anchors to the ball with sub pixel precision and calculates the trajectory
+2) A python function that identifies the brightest pixel, then anchors to the ball with sub pixel precision and calculates the trajectory
 3) A python function that sends the data to arduino (every 30ms)
 4) Arduino code that recieves the data (every 8ms) and updates the behaviour
 5) Arduino code that moves the motors by sending current through different wires (every 2ms)
